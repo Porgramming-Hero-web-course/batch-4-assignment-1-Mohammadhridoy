@@ -13,10 +13,11 @@
             const currentYear:number = new Date().getFullYear()
             const  carAges = currentYear - this.year
 
-            console.log(`${carAges} (assuming current year is 2024)`)
+            console.log(`${carAges} (assuming current year is ${currentYear})`)
         }
 
     }
+
 
 
 
